@@ -8,8 +8,8 @@
 </head>
 <body>
 
+    <div class="div_bar"></div>
     <header>
-        <div></div>
         <div class="logo">
 
         </div>

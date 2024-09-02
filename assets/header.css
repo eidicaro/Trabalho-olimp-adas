@@ -10,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 nav > ul {
@@ -44,4 +45,16 @@ nav > ul > li > .dropdown > li {
 
 nav > ul > li:hover .dropdown {
     max-height: 500px;
+}
+
+.div_bar{
+    background-color: #7E3EFE;
+    width: 100vw;
+    height: 3vh;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    
 }
