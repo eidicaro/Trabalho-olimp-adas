@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../assets/header.css">
 </head>
 <body>
-
+    
     <div class="div_bar"></div>
     <header>
         <div class="logo">
