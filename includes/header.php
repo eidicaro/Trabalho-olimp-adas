@@ -11,7 +11,7 @@
     <div class="div_bar"></div>
     <header>
         <div class="logo">
-
+            <img src="../images/logo_nossa.png" alt="logo do site">
         </div>
 
         <nav>

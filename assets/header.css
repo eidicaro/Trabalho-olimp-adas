@@ -58,3 +58,8 @@ a{
     text-decoration: none;
     
 }
+
+.logo > img{
+    width: 20%;
+    height: 20%;
+}
