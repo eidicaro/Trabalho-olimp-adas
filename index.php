@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/footer.css">
 </head>
 <body>
-    
+    <?php
+    include_once('includes/header.php');
+    ?>
 </body>
 </html>
