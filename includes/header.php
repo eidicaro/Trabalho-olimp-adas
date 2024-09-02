@@ -9,6 +9,7 @@
 <body>
 
     <header>
+        <div></div>
         <div class="logo">
 
         </div>
