@@ -1,0 +1,45 @@
+body{
+    background-color: #343434;
+    color: #fff;
+}
+
+.intro::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    background-image: url('../images/fundo.jpg'); /* Caminho para a sua imagem */
+    background-size: 100% 170%;
+    background-position: center;
+    opacity: 0.5; /* Ajuste a opacidade aqui */
+    z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
+    padding: 10%;
+}
+
+.intro{
+    display: flex;
+}
+.description{
+    max-width: 50%;
+    background-color: #8c52ff68;
+    padding: 15px 20px 15px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+
+.logo_olimpiadas{
+    width: 28%;
+    border-radius: 50%;
+    padding: 6%;
+}
+
+.slogan{
+    border-left: #fff ridge;
+    padding: 5px;
+    font-size: 36px;
+}
+
+.text-intro{
+    padding: 5%;
+}
