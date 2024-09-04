@@ -14,7 +14,7 @@
             <img src="../images/logo_nossa.png" alt="logo do site">
         </div>
 
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">História</a></li>

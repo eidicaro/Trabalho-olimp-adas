@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,18 +15,18 @@ header {
     
 }
 
-nav > ul {
+.navbar > ul {
     display: flex;
     padding: 30px;
 }
 
-nav > ul > li {
+.navbar > ul > li {
     list-style-type: none;
     padding: 15px;
     position: relative;
 }
 
-nav > ul > li > .dropdown {
+.navbar > ul > li > .dropdown {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,13 +40,13 @@ nav > ul > li > .dropdown {
     border-radius: 0 0 10px 10px;
 }
 
-nav > ul > li > .dropdown > li {
+.navbar > ul > li > .dropdown > li {
     list-style-type: none;
     padding: 15px;
     position: relative;
 }
 
-nav > ul > li:hover .dropdown {
+.navbar > ul > li:hover .dropdown {
     max-height: 500px;
 }
 
@@ -54,9 +56,16 @@ nav > ul > li:hover .dropdown {
     height: 3vh;
 }
 
-a{
-    color: #ffffff;
+.navbar> ul > li > a{
+    color: #fff;
     text-decoration: none;
+    font-family: "Poppins";
+}
+
+.navbar > ul > li > .dropdown> li > a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins";
 }
 
 .logo > img{
