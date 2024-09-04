@@ -13,9 +13,6 @@
         include_once('includes/header.php');
     ?>
 
-    <?php
-        include_once('includes/footer.php')
-    ?>
     <div class="intro">
         <div class="text-intro">
         <h1 class="slogan">O Melhor Portal de Atletismo</h1>
@@ -26,5 +23,10 @@
         </div>
         <img src="images/logo_olimpiadas.png" alt="logo das olimpiadas" class="logo_olimpiadas">
     </div>
+
+    
+    <?php
+        include_once('includes/footer.php')
+    ?>
 </body>
 </html>

@@ -11,6 +11,8 @@ footer {
     flex-direction: column;
     padding: 5% 5%;
     font-family: "Poppins";
+    background-color: #fff;
+    color: #000;
 }
 
 footer > div {
