@@ -63,3 +63,22 @@ body{
 .text-intro{
     padding: 5%;
 }  
+
+/* Pagina historia */
+
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.history > p{
+    max-width: 35%;
+    text-align: justify;
+}
+
+.history > h1{
+    border-bottom: #fff ridge ;
+}
