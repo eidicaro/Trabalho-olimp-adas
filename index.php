@@ -25,6 +25,18 @@
     </div>
 
     
+    <div class="modalidades">
+
+    </div>
+
+    <div class="medalhas">
+        <h1>Quadro de Medalhas</h1>
+        <br><br>
+        <p>Aqui mostraremos o Quadro de Medalhas das Olimpiadas de Paris 2024</p>
+
+
+    </div>
+
     <?php
         include_once('includes/footer.php')
     ?>

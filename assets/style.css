@@ -50,6 +50,10 @@ body{
     padding: 7%;
 }
 
+.medalhas{
+    text-align: center;
+}
+
 .slogan{
     border-left: #fff ridge;
     padding: 5px;

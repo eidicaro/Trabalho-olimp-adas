@@ -11,18 +11,18 @@
     <div class="div_bar"></div>
     <header>
         <div class="logo">
-            <img src="../images/logo_nossa.png" alt="logo do site">
+            <img src="../trabalho-olimp-adas/images/logo_nossa.png" alt="logo do site">
         </div>
 
         <nav class="navbar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">História</a></li>
+                <li><a href="../trabalho-olimp-adas/index.php">Home</a></li>
+                <li><a href="../trabalho-olimp-adas/historia.php">História</a></li>
                 <li><a href="">Modalidades</a>
                     <ul class="dropdown">
-                        <li><a href="">Salto</a></li>
-                        <li><a href="">Corridas</a></li>
-                        <li><a href="">Arremesso</a></li>
+                        <li><a href="../trabalho-olimp-adas/salto.php">Salto</a></li>
+                        <li><a href="../trabalho-olimp-adas/corridas.php">Corridas</a></li>
+                        <li><a href="../trabalho-olimp-adas/arremesso.php">Arremesso</a></li>
                     </ul>
                 </li>
             </ul>
