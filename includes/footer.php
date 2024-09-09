@@ -32,12 +32,12 @@
                 <h3>Páginas</h3>
                 <nav>
                     <ul>
-                        <li><a href="../trabalho-olimp-adas/index.php">Home</a></li>
-                        <li><a href="../trabalho-olimp-adas/historia.php">História</a></li>
+                        <li><a href="../trabalho-olimpiadas/index.php">Home</a></li>
+                        <li><a href="../trabalho-olimpiadas/historia.php">História</a></li>
                         <li><a href="">Modalidades</a></li>
-                        <li><a href="../trabalho-olimp-adas/salto.php">Salto</a></li>
-                        <li><a href="../trabalho-olimp-adas/corridas.php">Corridas</a></li>
-                        <li><a href="../trabalho-olimp-adas/arremesso.php">Arremesso</a></li>
+                        <li><a href="../trabalho-olimpiadas/salto.php">Salto</a></li>
+                        <li><a href="../trabalho-olimpiadas/corridas.php">Corridas</a></li>
+                        <li><a href="../trabalho-olimpiadas/arremesso.php">Arremesso</a></li>
                     </ul>
                 </nav>
             </div>
