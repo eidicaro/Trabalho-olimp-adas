@@ -29,7 +29,7 @@
         </nav>
 
         <button class="btn-feedback">
-                
+                <img src="../trabalho-olimpiadas/images/codicon--feedback.svg" alt="" class="icon_feedback">
         </button>
     </header>
 

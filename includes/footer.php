@@ -14,16 +14,16 @@
         <div>
             <div class="social">
                 <div class="facebook">
-                    <img src="" alt="">
+                    <img src="../trabalho-olimpiadas/images/icon_facebook.svg" alt="">
                     <a href="">Facebook</a>
                 </div>
 
                 <div class="insta">
-                    <img src="" alt="">
+                    <img src="../trabalho-olimpiadas/images/icon_instagram.svg" alt="">
                     <a href="">Instagram</a>
                 </div>
                 <div class="whatsapp">
-                    <img src="" alt="">
+                    <img src="../trabalho-olimpiadas/images/icon_whatsapp.svg" alt="">
                     <a href="">WhatsApp</a>
                 </div>
             </div>

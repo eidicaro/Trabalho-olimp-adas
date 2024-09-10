@@ -48,3 +48,25 @@ footer > div > .pages > nav > ul > li > a {
 footer div > .copy > ul > li {
     list-style-type: none;
 }
+
+.social{
+
+}
+
+.facebook {
+   height: 15%;
+   display: flex;
+   align-items: center;
+}
+
+.facebook > img {
+    height: 150%;
+ }
+
+.insta{
+
+}
+
+.whatsapp{
+
+}

@@ -79,14 +79,17 @@ body{
     text-align: justify;
 }
 
-.titulo > h1{
+.titulo{
+    display: flex;
+    width: 9%;
     border-bottom: #fff ridge ;
 }
 
-.titulo{
-    display: flex;
+ .run_icon{
+  padding: 2%;
+  width: 200%;
 }
 
-.titulo > img{
-    colr: #fff;
+.hist_brasil{
+    border-bottom: #fff ridge ;
 }

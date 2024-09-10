@@ -73,7 +73,12 @@ header {
     height: 20%;
 }
 
+.icon_feedback{
+    width: 100%;
+}
 
 .btn-feedback{
-    padding: 30px;
+    background-color: #8C52FF;
+    border-style: none;
+    width: 3%;
 }
