@@ -79,6 +79,14 @@ body{
     text-align: justify;
 }
 
-.history > h1{
+.titulo > h1{
     border-bottom: #fff ridge ;
+}
+
+.titulo{
+    display: flex;
+}
+
+.titulo > img{
+    colr: #fff;
 }
