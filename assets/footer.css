@@ -50,7 +50,6 @@ footer div > .copy > ul > li {
     list-style-type: none;
 }
 
-<<<<<<< HEAD
 .social > div {
     width: 100%;
 }
@@ -60,8 +59,6 @@ footer div > .copy > ul > li {
     color: #000;
 }
 
-=======
->>>>>>> 6128efdbd3a93e6f10c3403a8cb1ceababd54e41
 .facebook {
    height: 15%;
    display: flex;
@@ -70,7 +67,6 @@ footer div > .copy > ul > li {
 }
 
 .facebook > img {
-<<<<<<< HEAD
     height: 100%;
     margin-right: 10px; 
  }
@@ -96,31 +92,3 @@ footer div > .copy > ul > li {
     height: 100%;
     margin-right: 10px;
 }
-=======
-    height: 150%;
-    margin: 0 5% 0 0;
- }
-
- .insta {
-    height: 15%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 3%;
- }
- 
- .insta > img {
-     height: 150%;
-     margin: 0 5% 0 0;
-  }
-  .whatsapp {
-    height: 15%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 3%;
- }
- 
- .whatsapp > img {
-     height: 150%;
-     margin: 0 5% 0 0;
-  }
->>>>>>> 6128efdbd3a93e6f10c3403a8cb1ceababd54e41
