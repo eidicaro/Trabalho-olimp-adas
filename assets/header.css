@@ -52,7 +52,7 @@ header {
 
 .div_bar{
     background-color: #7E3EFE;
-    width: 100vw;
+    width: 100%;
     height: 3vh;
 }
 
@@ -68,9 +68,15 @@ header {
     font-family: "Poppins";
 }
 
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
 .logo > img{
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 100%;
 }
 
 .icon_feedback{
