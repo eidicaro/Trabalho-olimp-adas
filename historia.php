@@ -19,7 +19,7 @@
         <p>O atletismo, que surgiu há 4 mil anos no Egito com corridas entre homens, evoluiu para se tornar o destaque das Olimpíadas Antigas na Grécia. No século XIX, na Inglaterra, o esporte ganhou popularidade com corridas organizadas de forma irregular. Em 1825, foram realizadas competições amadoras em Uxbridge, e, em 1827, a corrida com obstáculos foi criada em Eton. Em 1834, surgiram as primeiras regras oficiais para algumas provas, mas o primeiro torneio oficial só ocorreu em 1864, com as competições anuais entre as universidades de Oxford e Cambridge.</p>
         <br>
         <p>O atletismo faz parte das Olimpíadas Modernas desde a primeira edição em 1896, na Grécia. A Federação Internacional de Atletismo Amador (IAAF), que regula o esporte até hoje, foi fundada em 1913, em Londres. Geralmente praticado em estádios, o atletismo também inclui corridas de longa distância, como a maratona, realizadas em vias públicas ou no campo. Considerado o esporte mais antigo e nobre, o atletismo serve como base para diversas outras modalidades esportivas</p>
-
+        <br><br>
 
         <h1 class="hist_brasil">História No Brasil</h1>
         <br>

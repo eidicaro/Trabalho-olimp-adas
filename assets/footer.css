@@ -49,24 +49,37 @@ footer div > .copy > ul > li {
     list-style-type: none;
 }
 
-.social{
-
-}
-
 .facebook {
    height: 15%;
    display: flex;
    align-items: center;
+   margin-bottom: 3%;
 }
 
 .facebook > img {
     height: 150%;
+    margin: 0 5% 0 0;
  }
 
-.insta{
-
-}
-
-.whatsapp{
-
-}
+ .insta {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+ }
+ 
+ .insta > img {
+     height: 150%;
+     margin: 0 5% 0 0;
+  }
+  .whatsapp {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+ }
+ 
+ .whatsapp > img {
+     height: 150%;
+     margin: 0 5% 0 0;
+  }
