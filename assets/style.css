@@ -27,7 +27,7 @@ body{
     background-image: url('../images/fundo.jpg'); /* Caminho para a sua imagem */
     background-size: 100% 160%;
     background-position: center;
-    opacity: 0.5; /* Ajuste a opacidade aqui */
+    opacity: 0.3; /* Ajuste a opacidade aqui */
     z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
     padding: 10%;
     padding-bottom: 20%;
