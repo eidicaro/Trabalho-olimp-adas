@@ -81,13 +81,13 @@ body{
 
 .titulo{
     display: flex;
-    width: 9%;
+    width: 14%;
     border-bottom: #fff ridge ;
 }
 
  .run_icon{
   padding: 2%;
-  width: 200%;
+  width: 150%;
 }
 
 .hist_brasil{

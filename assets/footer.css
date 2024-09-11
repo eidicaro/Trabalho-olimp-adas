@@ -17,7 +17,7 @@ footer {
 
 footer > div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer > div > div {
@@ -43,30 +43,84 @@ footer > div > .pages > nav > ul > li {
 
 footer > div > .pages > nav > ul > li > a {
     text-decoration: none;
+    color: #000;
 }
 
 footer div > .copy > ul > li {
     list-style-type: none;
 }
 
-.social{
-
+<<<<<<< HEAD
+.social > div {
+    width: 100%;
 }
 
+.social > div > a {
+    text-decoration: none;
+    color: #000;
+}
+
+=======
+>>>>>>> 6128efdbd3a93e6f10c3403a8cb1ceababd54e41
 .facebook {
+   height: 15%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 3%;
+}
+
+.facebook > img {
+<<<<<<< HEAD
+    height: 100%;
+    margin-right: 10px; 
+ }
+
+.insta{
    height: 15%;
    display: flex;
    align-items: center;
 }
 
-.facebook > img {
-    height: 150%;
- }
-
-.insta{
-
+.insta > img {
+    height: 100%;
+    margin-right: 10px;
 }
 
 .whatsapp{
-
+    height: 15%;
+    display: flex;
+    align-items: center;
 }
+
+.whatsapp > img {
+    height: 100%;
+    margin-right: 10px;
+}
+=======
+    height: 150%;
+    margin: 0 5% 0 0;
+ }
+
+ .insta {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+ }
+ 
+ .insta > img {
+     height: 150%;
+     margin: 0 5% 0 0;
+  }
+  .whatsapp {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+ }
+ 
+ .whatsapp > img {
+     height: 150%;
+     margin: 0 5% 0 0;
+  }
+>>>>>>> 6128efdbd3a93e6f10c3403a8cb1ceababd54e41
