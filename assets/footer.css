@@ -59,6 +59,12 @@ footer div > .copy > ul > li {
     color: #000;
 }
 
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .facebook {
    height: 15%;
    display: flex;
@@ -75,6 +81,7 @@ footer div > .copy > ul > li {
    height: 15%;
    display: flex;
    align-items: center;
+   margin-bottom: 3%;
 }
 
 .insta > img {
@@ -86,6 +93,7 @@ footer div > .copy > ul > li {
     height: 15%;
     display: flex;
     align-items: center;
+    margin-bottom: 3%;
 }
 
 .whatsapp > img {
