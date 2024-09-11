@@ -21,7 +21,7 @@
            Aqui você pode explorar 14 modalidades emocionantes do esporte, desde corridas rápidas até saltos e arremessos. Descubra a história fascinante do atletismo, tanto globalmente quanto no Brasil, e veja como o esporte evoluiu ao longo dos anos. Acompanhe os feitos históricos dos maiores atletas e conheça o impacto do atletismo em diferentes competições. Navegue e mergulhe no mundo do atletismo conosco! 
         </p>
         </div>
-        <img src="images/logo_olimpiadas.png" alt="logo das olimpiadas" class="logo_olimpiadas">
+        <img src="../trabalho-olimpiadas/images/logo_olimpica.svg" alt="logo das olimpiadas" class="logo_olimpica">
     </div>
 
     
