@@ -26,7 +26,7 @@
 
     
     <div class="modalidades">
-
+    <h1>Modalidades</h1>
     </div>
 
     <div class="medalhas">

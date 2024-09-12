@@ -14,7 +14,8 @@
     ?>
 
     <div class="history">
-        <div class="titulo"><h1>História</h1> <img src="../trabalho-olimpiadas/images/bx--run.svg" alt="" class="run_icon"></div>
+        <div class="titulo"><h1>História</h1> 
+        <img src="../trabalho-olimpiadas/images/bx--run.svg" alt="" class="run_icon"></div>
         <br>
         <p>O atletismo, que surgiu há 4 mil anos no Egito com corridas entre homens, evoluiu para se tornar o destaque das Olimpíadas Antigas na Grécia. No século XIX, na Inglaterra, o esporte ganhou popularidade com corridas organizadas de forma irregular. Em 1825, foram realizadas competições amadoras em Uxbridge, e, em 1827, a corrida com obstáculos foi criada em Eton. Em 1834, surgiram as primeiras regras oficiais para algumas provas, mas o primeiro torneio oficial só ocorreu em 1864, com as competições anuais entre as universidades de Oxford e Cambridge.</p>
         <br>

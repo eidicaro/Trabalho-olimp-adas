@@ -23,9 +23,9 @@ body{
     content: "";
     position: absolute;
     width: 80%;
-    height: 10%;
+    height: 17%;
     background-image: url('../images/fundo.jpg'); /* Caminho para a sua imagem */
-    background-size: 100% 160%;
+    background-size: 105% 160%;
     background-position: center;
     opacity: 0.3; /* Ajuste a opacidade aqui */
     z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
@@ -35,6 +35,7 @@ body{
 
 .intro{
     display: flex;
+    margin-bottom: 4%;
 }
 .description{
     max-width: 50%;
@@ -59,6 +60,8 @@ body{
     border-left: #fff ridge;
     padding: 5px;
     font-size: 36px;
+    max-width: 50%;
+    padding: 0 0 0 2%;
 }
 
 .text-intro{
@@ -93,4 +96,74 @@ body{
 
 .hist_brasil{
     border-bottom: #fff ridge ;
+}
+
+/* pág salto */
+
+.salto > h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.salto > h1 > b{
+    border-bottom: #fff ridge;
+}
+
+.subtitle{
+    border-bottom: #fff ridge;
+    margin:0 77% 3% 5% ;
+    text-align: center;
+}
+
+.salto-distancia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.salto-distancia > p{
+    max-width: 30%;
+    text-align: justify;
+}
+
+.salto-distancia > img{
+    border-radius: 25px;
+    margin: 0 3% 0 0;
+    width: 40%;
+}
+
+.salto-altura{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.salto-altura > p{
+    max-width: 30%;
+    text-align: justify;
+}
+
+.salto-altura > img{
+    border-radius: 25px;
+    margin: 0 3% 0 0;
+    width: 40%;
+}
+
+.salto-vara{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.salto-vara > p{
+    max-width: 30%;
+    text-align: justify;
+}
+
+.salto-vara > img{
+    border-radius: 25px;
+    margin: 0 3% 0 0;
+    width: 40%;
 }
