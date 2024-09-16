@@ -30,7 +30,7 @@ body{
     opacity: 0.3; /* Ajuste a opacidade aqui */
     z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
     padding: 10%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 
 .intro{
@@ -38,17 +38,16 @@ body{
     margin-bottom: 4%;
 }
 .description{
-    max-width: 50%;
+    max-width: 40%;
     background-color: #8c52ff68;
     padding: 15px 20px 15px 15px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 18px;
     
 }
 
 .logo_olimpiadas{
-    width: 81%;
-    border-radius: 50%;
+    width: 60%;
     padding: 7%;
 }
 
@@ -60,7 +59,7 @@ body{
     border-left: #fff ridge;
     padding: 5px;
     font-size: 36px;
-    max-width: 50%;
+    max-width: 40%;
     padding: 0 0 0 2%;
 }
 
@@ -85,13 +84,13 @@ body{
 
 .titulo{
     display: flex;
-    width: 14%;
+    width: 9%;
     border-bottom: #fff ridge ;
 }
 
  .run_icon{
   padding: 2%;
-  width: 150%;
+  width: 120%;
 }
 
 .hist_brasil{
@@ -99,10 +98,13 @@ body{
 }
 
 /* pág salto */
-
+.salto{
+    margin: 5% 0 0 0;
+}
 .salto > h1{
     text-align: center;
     margin-bottom: 5%;
+
 }
 .salto > h1 > b{
     border-bottom: #fff ridge;
@@ -110,60 +112,63 @@ body{
 
 .subtitle{
     border-bottom: #fff ridge;
-    margin:0 77% 3% 5% ;
+    margin:0% 82% 2% 5% ;
     text-align: center;
 }
 
 .salto-distancia{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     margin-bottom: 5%;
 }
 
 .salto-distancia > p{
     max-width: 30%;
     text-align: justify;
+    margin: 0 0 0 15%;
 }
 
 .salto-distancia > img{
     border-radius: 25px;
-    margin: 0 3% 0 0;
-    width: 40%;
+    width: 28%;
+    margin: 0 0 0 10%;
 }
 
 .salto-altura{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     margin-bottom: 5%;
 }
 
 .salto-altura > p{
     max-width: 30%;
     text-align: justify;
+    margin: 0 0 0 15%;
 }
 
 .salto-altura > img{
     border-radius: 25px;
-    margin: 0 3% 0 0;
-    width: 40%;
+    margin: 0 0 0 10%;
+    width: 28%;
 }
 
 .salto-vara{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     margin-bottom: 10%;
 }
 
 .salto-vara > p{
     max-width: 30%;
     text-align: justify;
+    margin: 0 0 0 15%;
 }
 
 .salto-vara > img{
     border-radius: 25px;
-    margin: 0 3% 0 0;
-    width: 40%;
+    margin: 0 0 0 10%;
+    width: 28%;
 }

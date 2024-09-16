@@ -15,16 +15,16 @@
             <div class="social">
                 <div class="facebook">
                     <img src="../trabalho-olimpiadas/images/icon_facebook.svg" alt="">
-                    <a href="">Facebook</a>
+                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Dpt_BR">Facebook</a>
                 </div>
 
                 <div class="insta">
                     <img src="../trabalho-olimpiadas/images/icon_instagram.svg" alt="">
-                    <a href="">Instagram</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
                 </div>
                 <div class="whatsapp">
                     <img src="../trabalho-olimpiadas/images/icon_whatsapp.svg" alt="">
-                    <a href="">WhatsApp</a>
+                    <a href="https://web.whatsapp.com/">WhatsApp</a>
                 </div>
             </div>
 
