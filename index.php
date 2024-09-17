@@ -27,6 +27,24 @@
     
     <div class="modalidades">
     <h1>Modalidades</h1>
+    <div class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/100m-rasos.jpg" alt="Imagem 1"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/110m-barreira.jpg" alt="Imagem 2"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/200m-rasos.jpg" alt="Imagem 3"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/400m-barreira.jpg" alt="Imagem 4"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/400m-rasos.jpg" alt="Imagem 5"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/arremesso-dardo.jpg" alt="Imagem 6"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/arremesso-disco.jpg" alt="Imagem 7"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/arremesso-peso.jpg" alt="Imagem 8"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/revezamento.jpg" alt="Imagem 9"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/salto_altura.jpeg" alt="Imagem 10"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/salta_distancia.jpg" alt="Imagem 11"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/salto_vara.jpeg" alt="Imagem 12"></div>
+        </div>
+    </div>
+
+    <script src="includes/carousel.js"></script>
     </div>
 
     <div class="medalhas">
