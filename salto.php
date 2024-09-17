@@ -30,7 +30,7 @@
         <h2  class="subtitle">Salto com Vara</h2>
         <div class="salto-vara">
         <p>O salto com vara é uma prova do atletismo em que o atleta utiliza uma vara flexível para impulsionar-se e ultrapassar uma barra horizontal, chamada sarrafo. Durante a prova, o atleta corre por uma pista e, ao chegar próximo à barra, finca a vara no solo para ganhar altura, utilizando a flexibilidade da vara para alcançar o impulso necessário. A técnica envolve uma combinação de velocidade, força, equilíbrio e precisão. A altura da barra vai sendo elevada progressivamente, e o objetivo é superar a maior altura possível sem derrubar o sarrafo.</p>
-        <img src="../trabalho-olimpiadas/images/salto_vara.jpeg" alt="imagem salto com vara">
+        <img src="../trabalho-olimpiadas/images/salto_vara.jpg" alt="imagem salto com vara">
         </div>
     </div>
     <?php

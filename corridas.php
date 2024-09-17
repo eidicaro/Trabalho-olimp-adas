@@ -18,7 +18,7 @@
     <h2 class="subtitle">100m Rasos</h2>
         <div class="m100-rasos">
         <p>Os 100 metros rasos são uma das provas mais rápidas e icônicas do atletismo. Nela, os atletas correm em linha reta por uma pista de 100 metros, buscando atingir a maior velocidade possível desde o início. A prova exige explosão, força e técnica, sendo decidida em frações de segundo. Vence o atleta que cruzar a linha de chegada primeiro. Considerada a prova que coroa o "homem mais rápido do mundo", os 100 metros rasos são destaque em competições como Olimpíadas e campeonatos mundiais.</p>
-        <img src="../trabalho-olimpiadas/images/100m-rasos.jfif" alt="imagem 100m rasos">
+        <img src="../trabalho-olimpiadas/images/100m-rasos.jpg" alt="imagem 100m rasos">
         </div>
 
         <h2 class="subtitle">110m com Barreira</h2>
@@ -48,7 +48,7 @@
         <h2 class="subtitle">4x100m Revezamento</h2>
         <div class="revezamento">
         <p>O revezamento 4x100 metros é uma prova de velocidade em equipe no atletismo, composta por quatro atletas que correm 100 metros cada um. A corrida é realizada em sequência, com cada atleta passando um bastão para o próximo dentro de uma zona específica de 20 metros. A troca precisa ser rápida e precisa, pois erros ou perda de tempo nas passagens podem comprometer o desempenho da equipe. A largada e as trocas são feitas em posições escalonadas devido à curva da pista. Vence a equipe que completar o percurso no menor tempo, unindo velocidade, coordenação e trabalho em equipe.</p>
-        <img src="../trabalho-olimpiadas/images/revezamento.jpg" alt="imagem 4x100 Revezamento">
+        <img src="../trabalho-olimpiadas/images/revezamento.jpeg" alt="imagem 4x100 Revezamento">
         </div>
     </div>
     <?php
