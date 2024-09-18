@@ -29,7 +29,7 @@
     <h1>Modalidades</h1>
     <div class="carousel">
         <div class="carousel-wrapper">
-            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/100m-rasos.jpg" alt="Imagem 1"></div>
+            <div class="carousel-item"><img src="../trabalho-olimpiadas/images/100m-rasosum.jpg" alt="Imagem 1"></div>
             <div class="carousel-item"><img src="../trabalho-olimpiadas/images/110m-barreira.jpg" alt="Imagem 2"></div>
             <div class="carousel-item"><img src="../trabalho-olimpiadas/images/200m-rasos.jpg" alt="Imagem 3"></div>
             <div class="carousel-item"><img src="../trabalho-olimpiadas/images/400m-barreira.jpg" alt="Imagem 4"></div>
@@ -49,7 +49,7 @@
 
     <div class="medalhas">
         <h1>Quadro de Medalhas</h1>
-        <br><br>
+
         <p>Aqui mostraremos o Quadro de Medalhas das Olimpiadas de Paris 2024</p>
 
 

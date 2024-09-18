@@ -55,6 +55,12 @@ body{
     text-align: center;
 }
 
+.medalhas > h1{
+    margin: 0 35% 5% 35%;
+    border-bottom: #fff ridge;
+    text-align: center;
+}
+
 .slogan{
     border-left: #fff ridge;
     padding: 5px;
@@ -66,6 +72,14 @@ body{
 .text-intro{
     padding: 5%;
 }  
+
+.modalidades > h1{
+    margin: 0 40% 5% 40%;
+    border-bottom: #fff ridge;
+    text-align: center;
+}
+
+
 
 /* Pagina historia */
 
@@ -132,6 +146,7 @@ body{
 .salto-distancia > img{
     border-radius: 25px;
     width: 28%;
+    height: auto;
     margin: 0 0 0 10%;
 }
 
@@ -151,6 +166,7 @@ body{
 .salto-altura > img{
     border-radius: 25px;
     margin: 0 0 0 10%;
+    height: auto;
     width: 28%;
 }
 
@@ -170,6 +186,7 @@ body{
 .salto-vara > img{
     border-radius: 25px;
     margin: 0 0 0 10%;
+    height: auto;
     width: 28%;
 }
 
@@ -388,14 +405,13 @@ body{
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     margin: auto;
 }
 
 .carousel-wrapper {
     display: flex;
     transition: transform 1s ease-in-out;
-    
 }
 
 .carousel-item {
@@ -405,5 +421,106 @@ body{
 
 .carousel-item img {
     width: 100%;
-    height: auto;
+    height: 82%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 400px){
+    /* index */
+    .body{
+        font-size: 10px
+    }
+
+    .intro::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        background-image: url('../images/fundo.jpg'); /* Caminho para a sua imagem */
+        background-size: 105% 160%;
+        background-position: center;
+        opacity: 0.3; /* Ajuste a opacidade aqui */
+        z-index: -1; /* Garante que a imagem fique atrás do conteúdo */
+        padding: 10%;
+        padding-bottom: 15%;
+    }
+    
+    .intro{
+        display: flex;
+        margin-bottom: 4%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description{
+        max-width: 90%;
+        height: 50%;
+        background-color: #8c52ff68;
+        padding: 15px 50px 15px 15px;
+        border-radius: 10px;
+        font-size: 10px;
+        text-align: justify;
+        
+    }
+    
+    .logo_olimpiadas{
+        width: 30%;
+        padding: 7%;
+    }
+    
+    .medalhas{
+        text-align: center;
+    }
+    
+    .medalhas > h1{
+        margin: 0 35% 5% 35%;
+        border-bottom: #fff ridge;
+        text-align: center;
+        font-size: 20px
+
+    }
+    
+    .slogan{
+        border-left: #fff ridge;
+        padding: 5px;
+        font-size: 20px;
+        max-width: 90%;
+        padding: 0 0 0 2%;
+    }
+    
+    .text-intro{
+        padding: 5%;
+    }  
+    
+    .modalidades > h1{
+        margin: 0 30% 5% 30%;
+        border-bottom: #fff ridge;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* Carrossel de Imagens */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 82%;
+    border-radius: 20px;
+}
+    
 }
