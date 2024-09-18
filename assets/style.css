@@ -425,7 +425,7 @@ body{
     border-radius: 20px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 300px){
     /* index */
     .body{
         font-size: 10px
@@ -434,7 +434,7 @@ body{
     .intro::before{
         content: "";
         position: absolute;
-        width: 100%;
+        width: 80%;
         height: 50%;
         background-image: url('../images/fundo.jpg'); /* Caminho para a sua imagem */
         background-size: 105% 160%;
@@ -455,16 +455,16 @@ body{
         max-width: 90%;
         height: 50%;
         background-color: #8c52ff68;
-        padding: 15px 50px 15px 15px;
+        padding: 15px 40px 15px 15px;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 12px;
         text-align: justify;
         
     }
     
     .logo_olimpiadas{
         width: 30%;
-        padding: 7%;
+        padding: 6%;
     }
     
     .medalhas{
@@ -522,5 +522,334 @@ body{
     height: 82%;
     border-radius: 20px;
 }
-    
+
+/* Pagina historia */
+
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+.history > p{
+    max-width: 70%;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.titulo{
+    display: flex;
+    width: 40%;
+    border-bottom: #fff ridge ;
+    justify-content: center;
+}
+
+ .run_icon{
+  padding: 2%;
+  width: 20%;
+}
+
+.hist_brasil{
+    border-bottom: #fff ridge ;
+    font-size: 20px;
+}
+
+.titulo > h1{
+    font-size: 20px;
+}
+
+/* pág salto */
+.salto{
+    margin: 5% 0 0 0;
+}
+.salto > h1{
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 20px;
+
+}
+.salto > h1 > b{
+    border-bottom: #fff ridge;
+}
+
+.subtitle{
+    border-bottom: #fff ridge;
+    margin:0% 40% 8% 15% ;
+    text-align: center;
+    font-size: 16px;
+}
+
+.salto-distancia{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.salto-distancia > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.salto-distancia > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+
+.salto-altura{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.salto-altura > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.salto-altura > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+
+.salto-vara{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.salto-vara > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.salto-vara > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 20% 0;
+}
+
+/* corridas */
+.corrida{
+    margin: 5% 0 0 0;
+}
+.corrida > h1{
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 20px;
+
+}
+.corrida > h1 > b{
+    border-bottom: #fff ridge;
+}
+
+.m100-rasos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.m100-rasos > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.m100-rasos > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+/* barreira */
+.m110-barreira{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.m110-barreira > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.m110-barreira > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+
+/* 200m */
+.m200-rasos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.m200-rasos > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.m200-rasos > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+/* 400 rasos */
+.m400-rasos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.m400-rasos > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.m400-rasos > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+
+/* 400 com barreira */
+.m400-barra{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.m400-barra > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.m400-barra > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+
+/* revezamento */
+.revezamento{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.revezamento > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.revezamento > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 20% 0;
+}
+
+/* aremesso */
+.arremesso{
+    margin: 5% 0 0 0;
+}
+.arremesso > h1{
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 20px;
+
+}
+.arremesso > h1 > b{
+    border-bottom: #fff ridge;
+}
+/* arremesso de peso */
+.arremesso-peso{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.arremesso-peso > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.arremesso-peso > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+/* arremesso de disco */
+.arremesso-disco{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.arremesso-disco > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.arremesso-disco > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 16% 0;
+}
+/* arremesso de dardo */
+.arremesso-dardo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.arremesso-dardo > p{
+    max-width: 70%;
+    text-align: justify;
+    margin: 0 0 12% 0;
+    font-size: 12px;
+}
+
+.arremesso-dardo > img{
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    margin: 0 0 20% 0;
+}
+
 }
