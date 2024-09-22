@@ -66,10 +66,10 @@
                     "arremesso-dardo.jpg",
                     "arremesso-disco.jpg",
                     "arremesso-peso.jpg",
-                    "revezamento.jpg",
+                    "revezamento.jpeg",
                     "salto_altura.jpeg",
-                    "salta_distancia.jpg",
-                    "salto_vara.jpeg"
+                    "salto_distancia.jpg",
+                    "salto_vara.jpg"
                 ];
                 foreach ($imagens as $index => $imagem): ?>
                     <div class="carousel-item">
@@ -83,7 +83,7 @@
 
     <div class="medalhas">
         <h1>Quadro de Medalhas</h1>
-        <p>Aqui mostraremos o Quadro de Medalhas das Olimpíadas de Paris 2024</p>
+        <p>Aqui mostraremos o Quadro de Medalhas no Atletismo das Olimpíadas de Paris 2024</p>
 
         <table id="medalTable">
             <caption>Quadro de Medalhas - Atletismo Olimpíadas 2024</caption>

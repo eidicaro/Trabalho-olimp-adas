@@ -56,12 +56,17 @@ body{
 
 .medalhas{
     text-align: center;
+    margin: 5% 0;
 }
 
 .medalhas > h1{
-    margin: 0 35% 5% 35%;
+    margin: 0 40% 5% 40%;
     border-bottom: #fff ridge;
     text-align: center;
+}
+
+.medalhas p{
+    font-size: 22px;
 }
 
 .slogan{
@@ -70,6 +75,7 @@ body{
     font-size: 36px;
     max-width: 40%;
     padding: 0 0 0 2%;
+    margin: 0 0 3% 0;
 }
 
 .text-intro{
@@ -77,12 +83,121 @@ body{
 }  
 
 .modalidades > h1{
-    margin: 0 40% 5% 40%;
+    margin: 0 43% 5% 43%;
     border-bottom: #fff ridge;
     text-align: center;
 }
 
 
+.avaliacao {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #7E3EFE;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.avaliacao > h2 {
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="int"] {
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    width: 100%;
+    font-family: "Poppins";
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.avaliacoes-recentes {
+    display: flex;
+    margin: 5% 5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avaliacoes-recentes > div {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    padding: 10px;
+}
+
+.avaliacoes-recentes > div > div {
+    background-color: #7E3EFE;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Quadro de Medalhas */
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    opacity: 0; 
+    transition: opacity 6s ease-out; 
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr {
+    background-color: #343434;
+}
+tr.highlight {
+    background-color: #FFDD57;
+    font-weight: bold;
+}
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+/* Animação do Quadro de Medalhas */
+tbody {
+    overflow: hidden;
+    height: 0; 
+    transition: height 3s ease-out; 
+}
+tbody.open {
+    height: auto; 
+}
+table.open {
+    opacity: 1; 
+}
 
 /* Pagina historia */
 
@@ -460,7 +575,7 @@ body{
         background-color: #8c52ff68;
         padding: 15px 40px 15px 15px;
         border-radius: 10px;
-        font-size: 12px;
+        font-size: 10px;
         text-align: justify;
         
     }
@@ -469,18 +584,7 @@ body{
         width: 30%;
         padding: 6%;
     }
-    
-    .medalhas{
-        text-align: center;
-    }
-    
-    .medalhas > h1{
-        margin: 0 35% 5% 35%;
-        border-bottom: #fff ridge;
-        text-align: center;
-        font-size: 20px
 
-    }
     
     .slogan{
         border-left: #fff ridge;
@@ -488,6 +592,7 @@ body{
         font-size: 20px;
         max-width: 90%;
         padding: 0 0 0 2%;
+        margin: 0 0 5% 0;
     }
     
     .text-intro{
@@ -499,6 +604,152 @@ body{
         border-bottom: #fff ridge;
         text-align: center;
         font-size: 20px;
+    }
+
+    /* quadro de medalhas */
+    
+    .medalhas{
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 15%;
+    }
+    
+    .medalhas > h1{
+        margin: 0 15% 5% 15%;
+        border-bottom: #fff ridge;
+        text-align: center;
+        font-size: 18px
+    }
+
+    
+    .medalhas p{
+        font-size: 12px;
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    table {
+        width: 40%;
+        margin: 5px auto;
+        border-collapse: collapse;
+        opacity: 0; 
+        transition: opacity 6s ease-out; 
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 4px;
+        text-align: center;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    tr {
+        background-color: #343434;
+    }
+    tr.highlight {
+        background-color: #FFDD57;
+        font-weight: bold;
+    }
+    caption {
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    /* menu de avaliação */
+    .avaliacao {
+        width: 90%;
+        margin: 5% auto;
+        padding: 10px;
+        background: #7E3EFE;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-size: 12px;
+    }
+    
+    .avaliacao > h2 {
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .avaliacao form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: left;
+        margin: 0 0 0 10px;
+    }
+    
+    label {
+        display: block;
+        margin: 5px 0 2px;
+        color: #fff;
+    }
+    
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="int"] {
+        border: 1px solid #ccc;
+    }
+    
+    .submit-btn {
+        width: 100%;
+        font-family: "Poppins";
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .submit-btn:hover {
+        background-color: #0056b3;
+    }
+    
+    .avaliacoes-recentes {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        font-size: 10px;
+        max-width: 90%;
+    }
+
+    .avaliacoes-recentes h2 {
+        font-size: 16px;
+    }
+    
+    .avaliacoes-recentes > div {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+    
+    .avaliacoes-recentes > div > div {
+        background-color: #7E3EFE;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .avaliacao-item{
+        max-width: 100%;
+        margin: 0 0 5% 0;
+        text-align: center;
+        padding: 10px;
+    }
+    .avaliacao-item p{
+        text-align: left;
     }
 
     /* Carrossel de Imagens */
@@ -580,7 +831,7 @@ body{
 .subtitle{
     border-bottom: #fff ridge;
     margin:0% 40% 8% 15% ;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
 }
 
@@ -598,7 +849,7 @@ body{
 }
 
 .salto-distancia > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -618,7 +869,7 @@ body{
 }
 
 .salto-altura > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -638,7 +889,7 @@ body{
 }
 
 .salto-vara > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 20% 0;
@@ -672,7 +923,7 @@ body{
 }
 
 .m100-rasos > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -692,7 +943,7 @@ body{
 }
 
 .m110-barreira > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -713,7 +964,7 @@ body{
 }
 
 .m200-rasos > img{
-    border-radius: 25px;
+    border-radius:10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -733,7 +984,7 @@ body{
 }
 
 .m400-rasos > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -754,7 +1005,7 @@ body{
 }
 
 .m400-barra > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -775,7 +1026,7 @@ body{
 }
 
 .revezamento > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 20% 0;
@@ -809,7 +1060,7 @@ body{
 }
 
 .arremesso-peso > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -829,7 +1080,7 @@ body{
 }
 
 .arremesso-disco > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 16% 0;
@@ -849,7 +1100,7 @@ body{
 }
 
 .arremesso-dardo > img{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 70%;
     height: auto;
     margin: 0 0 20% 0;
@@ -857,112 +1108,3 @@ body{
 
 }
 
-.avaliacao {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.avaliacao > h2 {
-    color: #000;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-    color: #000;
-}
-
-input[type="text"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-input[type="int"] {
-    border: 1px solid #ccc;
-}
-
-.submit-btn {
-    width: 100%;
-    font-family: "Poppins";
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.submit-btn:hover {
-    background-color: #0056b3;
-}
-
-.avaliacoes-recentes {
-    display: flex;
-    margin: 5% 5%;
-    align-items: center;
-    flex-direction: column;
-}
-
-.avaliacoes-recentes > div {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 40px;
-    padding: 10px;
-}
-
-.avaliacoes-recentes > div > div {
-    background-color: #fff;
-    color: #000;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* Quadro de Medalhas */
-table {
-    width: 70%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    opacity: 0; 
-    transition: opacity 6s ease-out; 
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-tr {
-    background-color: #343434;
-}
-tr.highlight {
-    background-color: #FFDD57;
-    font-weight: bold;
-}
-caption {
-    font-size: 1.5em;
-    margin: 10px;
-}
-
-/* Animação do Quadro de Medalhas */
-tbody {
-    overflow: hidden;
-    height: 0; 
-    transition: height 3s ease-out; 
-}
-tbody.open {
-    height: auto; 
-}
-table.open {
-    opacity: 1; 
-}
