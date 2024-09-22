@@ -853,3 +853,22 @@ body{
 }
 
 }
+
+.stars {
+    cursor: pointer;
+    font-size: 30px; /* Tamanho das estrelas */
+    color: #ddd; /* Cor padrão das estrelas */
+}
+
+.stars .star {
+    transition: color 0.2s;
+}
+
+.stars .star:hover,
+.stars .star:hover ~ .star {
+    color: gold; /* Cor das estrelas ao passar o mouse */
+}
+
+.stars .star.selected {
+    color: gold; /* Cor das estrelas selecionadas */
+}
