@@ -872,3 +872,45 @@ body{
 .stars .star.selected {
     color: gold; /* Cor das estrelas selecionadas */
 }
+
+/* Quadro de Medalhas */
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    opacity: 0; 
+    transition: opacity 6s ease-out; 
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr {
+    background-color: #343434;
+}
+tr.highlight {
+    background-color: #FFDD57;
+    font-weight: bold;
+}
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+/* Animação do Quadro de Medalhas */
+tbody {
+    overflow: hidden;
+    height: 0; 
+    transition: height 3s ease-out; 
+}
+tbody.open {
+    height: auto; 
+}
+table.open {
+    opacity: 1; 
+}
