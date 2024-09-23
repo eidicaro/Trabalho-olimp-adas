@@ -14,7 +14,7 @@
 <body>
     <?php
     include_once('includes/header.php');
-    include_once('includes/connection.php');
+    // include_once('includes/connection.php');
 
     // Dados das medalhas
     $medalhas = [
@@ -110,7 +110,7 @@
         </table>
     </div>
 
-    <div class="avaliacao">
+    <div class="avaliacao" id="avaliacao">
         <h2>Faça sua Avaliação</h2>
         <form method="POST" action="includes/submit.php" id="avaliacaoForm">
             <label for="nome_avaliador">Seu Nome:</label>
