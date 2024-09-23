@@ -132,7 +132,7 @@ input[type="int"] {
 }
 
 .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #714bad;
 }
 
 .avaliacoes-recentes {
@@ -543,9 +543,23 @@ table.open {
     border-radius: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+
+    .slogan {
+        font-size: 18px;
+        max-width: 80%;
+    }
+}
 @media screen and (max-width: 300px){
     /* index */
-    .body{
+    body{
         font-size: 10px
     }
 
@@ -608,55 +622,26 @@ table.open {
 
     /* quadro de medalhas */
     
-    .medalhas{
-        text-align: center;
-        max-width: 100%;
-        margin-bottom: 15%;
-    }
-    
-    .medalhas > h1{
-        margin: 0 15% 5% 15%;
-        border-bottom: #fff ridge;
-        text-align: center;
-        font-size: 18px
+    .medalhas > h1 {
+        font-size: 16px; /* Reduz o tamanho da fonte do título */
+        margin: 0 5% 5% 5%; /* Ajusta as margens para telas menores */
     }
 
-    
-    .medalhas p{
-        font-size: 12px;
-        max-width: 90%;
-        margin: auto;
-        text-align: center;
+    .medalhas p {
+        font-size: 10px; /* Reduz o tamanho da fonte do parágrafo */
     }
 
     table {
-        width: 40%;
-        margin: 5px auto;
-        border-collapse: collapse;
-        opacity: 0; 
-        transition: opacity 6s ease-out; 
-    }
-    th, td {
-        border: 1px solid #ddd;
-        padding: 4px;
-        text-align: center;
-    }
-    th {
-        background-color: #4CAF50;
-        color: white;
-    }
-    tr {
-        background-color: #343434;
-    }
-    tr.highlight {
-        background-color: #FFDD57;
-        font-weight: bold;
-    }
-    caption {
-        font-size: 1em;
-        margin: 5px;
+        width: 90%; /* Aumenta a largura da tabela para ocupar mais espaço */
     }
 
+    th, td {
+        padding: 8px; /* Aumenta o padding para melhor legibilidade */
+    }
+    
+    caption {
+        font-size: 0.9em; /* Ajusta o tamanho da fonte da legenda */
+    }
     /* menu de avaliação */
     .avaliacao {
         width: 90%;
@@ -1107,4 +1092,3 @@ table.open {
 }
 
 }
-
