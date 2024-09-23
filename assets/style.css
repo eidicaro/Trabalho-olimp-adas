@@ -100,6 +100,12 @@ body{
 
 .avaliacao > h2 {
     color: #fff;
+    text-align: center;
+}
+
+.avaliacao > label {
+    color: #fff;
+    text-align: center;
 }
 
 label {
@@ -124,8 +130,8 @@ input[type="int"] {
     width: 100%;
     font-family: "Poppins";
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #3f015c;
+    color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -556,8 +562,12 @@ table.open {
         font-size: 18px;
         max-width: 80%;
     }
+
+    .medalhas h1{
+        margin: 0 35% 5% 35%;
+    }
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 500px){
     /* index */
     body{
         font-size: 10px

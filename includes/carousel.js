@@ -9,4 +9,4 @@ function moveToNextSlide() {
     carouselWrapper.style.transform = `translateX(${offset}%)`;
 }
 
-setInterval(moveToNextSlide, 15000); // Mover para o próximo slide a cada 15 secondos
+setInterval(moveToNextSlide, 5000); // Mover para o próximo slide a cada 15 secondos
